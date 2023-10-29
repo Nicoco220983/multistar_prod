@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=nico
+User=multistar
 ExecStart=/home/multistar/multistar_prod/start_multistar.sh
 Restart=on-failure
 RestartSec=3
